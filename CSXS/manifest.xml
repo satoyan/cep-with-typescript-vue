@@ -8,6 +8,7 @@
     <HostList>
       <!-- AfterEffectsの場合です。 -->
       <Host Name="AEFT" Version="15.0" />
+      <Host Name="PHXS" Version="[16.0,19.9]" />
     </HostList>
     <LocaleList>
       <Locale Code="All" />
@@ -21,6 +22,7 @@
       <DispatchInfo>
         <Resources>
           <MainPath>./client/index.html</MainPath>
+          <ScriptPath>./host/dist/main.js</ScriptPath>
           <CEFCommandLine />
         </Resources>
         <Lifecycle>

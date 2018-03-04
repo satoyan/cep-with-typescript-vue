@@ -3,6 +3,7 @@
     <Extension Id="test.mycep.panel">
         <HostList>
             <Host Name="AEFT" Port="9000"/>
+            <Host Name="PHXS" Port="9000"/>
         </HostList>
     </Extension>
 </ExtensionList>
